@@ -11,11 +11,35 @@ from starlette.staticfiles import StaticFiles
 
 #export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1' 
 
-export_file_url = 'https://www.dropbox.com/s/jjvxmxq95pemfhc/cars99?dl=1'
+export_file_url = 'https://www.dropbox.com/s/fe7pi4h4c6vftzd/skins90?dl=1'
    
-export_file_name = 'cars99.pkl'
+export_file_name = 'skin90.pkl'
 
-classes = ['Convertible', 'Coupe', 'Hatchback', 'Microcar', 'Minivan', 'Pickup Truck', 'Sedan', 'Sport Utlity Vehicle', 'Sports Car', 'Station Wagon']
+classes = ['Acne',
+ 'Actinic keratosis',
+ 'Basal cell carcinoma',
+ 'Blister',
+ 'Carbuncle',
+ 'Cellulitis',
+ 'Chickenpox',
+ 'Cold sore',
+ 'Contact dermatitis',
+ 'Eczema',
+ 'Hives',
+ 'Impetigo',
+ 'Keratosis pilaris',
+ 'Latex allergy',
+ 'Lupus',
+ 'Measles',
+ 'Melanoma',
+ 'Melasma',
+ 'Psoriasis',
+ 'Ringworm',
+ 'Rosacea',
+ 'Seborrheic eczema',
+ 'Squamous cell carcinoma',
+ 'Vitiligo',
+ 'Wart']
 
 path = Path(__file__).parent
 
